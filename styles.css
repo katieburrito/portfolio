@@ -255,8 +255,18 @@ body {
 .project-icons {
 }
 
-.project-icons-more {
-  display: inline;
+.project-icons-more:link,
+.project-icons-more:visited {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+  transition: all 0.3s;
+}
+
+.project-icons-more:hover,
+.project-icons-more:active {
+  color: #20a7fe;
+  font-weight: 500;
 }
 
 /* .montserrat-<uniquifier > {
