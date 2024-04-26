@@ -53,9 +53,10 @@ body {
 /* ---------------------------------------------------------- */
 
 .heading-primary,
-.heading-secondary {
+.heading-secondary,
+.contact-background {
   font-family: "Urbanist", sans-serif;
-  font-size: 12rem;
+  font-size: 16rem;
   font-weight: 800;
   letter-spacing: -2px;
 }
@@ -196,27 +197,26 @@ body {
 /* ---------------------------------------------------------- */
 
 .section-projects {
-  /* display: grid;
-  /* grid-template-columns: 1fr 1fr; */
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 4.8rem; */
+  gap: 4.8rem;
 }
 
 .projects-container {
   background-color: #d5f3ff;
   max-width: 130rem;
-  /* margin: 0 auto; */
+  margin: 19.2rem auto;
+  padding: 12.8rem 9.6rem;
   display: grid;
-  /* grid-template-columns: 1fr 1fr; */
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 4.8rem;
+  gap: 8rem;
+  position: relative;
 }
 
 .projects-heading {
-  /* position: relative;
-  top: -25%;
-  left: 50%; */
-  /* transform: translateX(-50%); */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-65%);
+  z-index: 10;
   color: #20a7fe;
 }
 
@@ -227,14 +227,19 @@ body {
   gap: 2.4rem;
 }
 
+.project-img-link {
+  justify-self: center;
+}
+
 .project-img {
   height: 30rem;
 }
 
-.project-text-group {
-}
+/* .project-text-group {
+} */
 
 .project-title {
+  font-family: "Urbanist", sans-serif;
   color: #ec6b26;
   font-size: 4.4rem;
   text-decoration: none;
@@ -252,8 +257,8 @@ body {
   line-height: 1.6;
 }
 
-.project-icons {
-}
+/* .project-icons {
+} */
 
 .project-icons-more:link,
 .project-icons-more:visited {
@@ -267,6 +272,23 @@ body {
 .project-icons-more:active {
   color: #20a7fe;
   font-weight: 500;
+}
+
+/* ---------------------------------------------------------- */
+/* CONTACT SECTION */
+/* ---------------------------------------------------------- */
+
+.contact-background {
+  color: hsla(329, 100%, 94%, 0.25);
+}
+
+.contact-background-one {
+  display: inline;
+  color: orange;
+}
+.contact-background-two {
+}
+.contact-background-three {
 }
 
 /* .montserrat-<uniquifier > {
