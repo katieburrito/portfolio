@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Katherine Burdi</title>
+    <title>Katie Burdi</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,9 @@
   <body>
 
     <header class="header">
-      <h1 class="logo">Katherine Burdi</h1>
+      <a class="logo" href="#">
+        <h3 class="heading-tertiary">Katie Burdi</h3>
+      </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="nav-link" href="#">Home</a></li>
@@ -65,7 +67,10 @@
             <a class="project-img-link" href="#"><img class="project-img" src="img/garden_360_desktop_screenshot.png"
                    alt="garden 360 homepage on a laptop"></a>
             <div class="project-text-group">
-              <h3 class="project-title">Garden 360</h3>
+              <a class="project-title" href=#">
+                <h3 class="heading-tertiary">Garden 360</h3>
+              </a>
+
               <div class="project-details">
                 <ul class="project-details-column">
                   <li class="project-details-item">brand identity</li>
@@ -88,7 +93,9 @@
 
           <article class="project-group">
             <div class="project-text-group">
-              <h3 class="project-title">DJ's Home Improvements</h3>
+              <a class="project-title" href=#">
+                <h3 class="heading-tertiary">DJ's Home Improvements</h3>
+              </a>
               <div class="project-details">
                 <ul class="project-details-column">
                   <li class="project-details-item">brand identity</li>
@@ -120,7 +127,9 @@
             <a class="project-img-link" href="#"><img class="project-img" src="img/pepper_phone.png"
                    alt="Pepper Smartwatch home screen on an iPhone"></a>
             <div class="project-text-group">
-              <h3 class="project-title">Pepper Smartwatch</h3>
+              <a class="project-title" href=#">
+                <h3 class="heading-tertiary">Pepper Smartwatch</h3>
+              </a>
               <div class="project-details">
                 <ul class="project-details-column">
                   <li class="project-details-item">brand identity</li>
@@ -144,12 +153,51 @@
         </div>
       </section>
 
-      <section class="contact">
-        <div class="contact-background">
-
+      <section class="section-contact">
+        <!-- <div class="contact-background">
           <p class="contact-background-one">Katherine Burdi Katherine Burdi Katherine Burdi</p>
           <p class="contact-background-two">Katherine Burdi Katherine Burdi Katherine Burdi</p>
           <p class="contact-background-three">Katherine Burdi Katherine Burdi Katherine Burdi</p>
+        </div> -->
+        <div class="contact-container">
+
+          <h3 class="contact-title heading-tertiary">Contact Me!</h3>
+
+          <form class="contact-form" action="">
+            <div class="contact-input-container">
+              <label class="contact-label" for="contact-name">Name:</label>
+              <input class="contact-input" id="contact-name" type="text" required>
+            </div>
+
+            <div class="contact-input-container">
+              <label class="contact-label" for="contact-email">Email:</label>
+              <input class="contact-input" id="contact-email" type="email" required>
+            </div>
+
+            <div class="contact-input-container">
+              <label class="contact-label" for="contact-message">Message:</label>
+              <textarea class="contact-input message" rows="3" id="contact-message" type="text"
+                        placeholder="Hi Katie, Can't wait to talk to you soon!"></textarea>
+            </div>
+
+            <a class="btn btn-primary contact-button" href="#" type="submit">Submit</a>
+
+            <!-- figure out where to put classes and where to put link/button below to ensure it's a clickable link button (to submit form contents and to link to success page) -->
+
+            <!-- <a class="btn" href="#"><button type="submit">Submit</button></a> -->
+
+            <!-- <button class="btn btn-primary contact-button" type="submit"><a href="#">Submit</a></button> -->
+            <!-- <a class="btn btn-primary contact-button" href="#">Submit</a> -->
+
+            <!-- when button is nested in anchor, why does clickable link fill the whole line? -->
+
+            <!-- can't put button inside link:
+            https://stackoverflow.com/questions/6393827/can-i-nest-a-button-element-inside-an-a-using-html5
+
+
+            -->
+
+          </form>
         </div>
 
       </section>
