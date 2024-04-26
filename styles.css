@@ -321,9 +321,8 @@ body {
 }
 
 .contact-container {
-  max-width: 70rem;
+  max-width: 60rem;
   margin: 0 auto;
-  padding: 6.4rem;
 }
 
 .contact-title {
@@ -342,17 +341,22 @@ body {
   gap: 0.5rem;
 }
 
-.contact-label {
-  /* font-weight: 500; */
-}
+/* .contact-label {
+  font-weight: 500;
+} */
 
 .contact-input {
   background-color: #d5f3ff;
   border: solid 1px #242421;
+  font-family: inherit;
 }
 
-.message {
+.contact-message {
   display: block;
+
+  width: 100%;
+  font-size: 1.6rem;
+  line-height: 1.4;
 }
 
 .contact-button {
