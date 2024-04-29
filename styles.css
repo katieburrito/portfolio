@@ -291,6 +291,8 @@ body {
 } */
 
 .skill-icon {
+  font-size: 5rem;
+  color: #646357;
 }
 
 .project-icons-more:link,
@@ -443,6 +445,9 @@ body {
 }
 
 .social-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2.4rem;
 }
 
 .social-link:link,
