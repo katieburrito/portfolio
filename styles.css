@@ -253,8 +253,17 @@ body {
   gap: 2.4rem;
 }
 
-.project-img-link {
+.project-img-link:link,
+.project-img-link:visited {
   justify-self: center;
+  filter: grayscale(100%);
+  transition: all 0.3s;
+}
+
+.project-img-link:hover,
+.project-img-link:active {
+  filter: none;
+  scale: 105%;
 }
 
 .project-img {
