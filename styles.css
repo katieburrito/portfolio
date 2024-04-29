@@ -67,6 +67,7 @@ body {
 
 .heading-primary,
 .heading-secondary,
+/* .section-contact::before, */
 .contact-background {
   font-family: "Urbanist", sans-serif;
   font-size: 16rem;
@@ -313,23 +314,45 @@ body {
   padding: 6.4rem;
 } */
 
-.contact-background {
+/* .section-contact::before {
+  content: "katherine\a0 burdi\a0 katherine\a0 burdi\a0 katherine\a0 burdi\a0 katherine\a0 burdi\a0 katherine\a0 burdi";
   color: hsla(329, 100%, 94%, 0.25);
+  color: magenta;
+  font-size: 10rem;
+  overflow: hidden;
+  max-width: 100vw;
+} */
+
+/* .contact-background {
+  color: hsla(329, 100%, 94%, 0.25);
+} */
+
+/* .contact-background-text {
+  max-width: 110vw;
+  overflow: hidden;
+  white-space: nowrap;
+  word-wrap: break-word;
+
+  width: 1300px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+} */
+
+/* .contact-background-text:nth-child(1) {
+
+} */
+
+/* .contact-background-text:nth-child(2) {
+  margin-left: -50rem;
 }
 
-.contact-background-one {
-  /* display: inline; */
-  display: flex;
-  width: 100vw;
-  /* overflow: hidden; */
-  color: orange;
-}
-
-.contact-background-two {
-}
-
-.contact-background-three {
-}
+.contact-background-text:nth-child(3) {
+  transform: translateX(-20%);
+} */
 
 .contact-form-container {
   max-width: 60rem;
