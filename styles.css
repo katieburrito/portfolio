@@ -27,7 +27,7 @@ SPACING SYSTEM (px)
 
   Larger Spaces
 max-width (hero, project container): 130rem (1300px)
-vertical margins (projects: 19.2rem
+vertical margins (projects, top of footer): 19.2rem
 vertical padding (projects): 12.8rem
 image heights (project thumbnails): 30rem
 form container max-width: 60rem
@@ -290,6 +290,9 @@ body {
 /* .project-icons {
 } */
 
+.skill-icon {
+}
+
 .project-icons-more:link,
 .project-icons-more:visited {
   text-decoration: none;
@@ -308,11 +311,11 @@ body {
 /* CONTACT SECTION */
 /* ---------------------------------------------------------- */
 
-/* .section-contact {
-  max-width: 70rem;
-  margin: 0 auto;
-  padding: 6.4rem;
-} */
+.section-contact {
+  /* max-width: 70rem; */
+  margin: 12rem auto;
+  /* padding: 6.4rem; */
+}
 
 /* .section-contact::before {
   content: "katherine\a0 burdi\a0 katherine\a0 burdi\a0 katherine\a0 burdi\a0 katherine\a0 burdi\a0 katherine\a0 burdi";
@@ -373,7 +376,7 @@ body {
 
 .contact-input-container {
   display: grid;
-  gap: 0.8rem;
+  row-gap: 0.8rem;
 }
 
 /* .contact-label {
@@ -394,6 +397,68 @@ body {
 
 .contact-button {
   align-self: flex-end;
+}
+
+/* ---------------------------------------------------------- */
+/* FOOTER */
+/* ---------------------------------------------------------- */
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* column-gap: 10rem; */
+  background-color: #ffe2f1;
+
+  /* background-image: url("img/footer_glasses.png"),
+    linear-gradient(to bottom, #ffe2f1, #ffe2f1);
+  background-repeat: no-repeat;
+  background-size: 95%; */
+
+  padding: 12.8rem;
+  align-items: center;
+  justify-items: center;
+  margin-top: 19.2rem;
+
+  position: relative;
+}
+
+.footer-background {
+  position: absolute;
+  max-width: 130rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer-left {
+  row-gap: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-right {
+  display: grid;
+  row-gap: 3.2rem;
+  justify-items: center;
+}
+
+.social-links {
+}
+
+.social-link:link,
+.social-link:visited {
+  text-decoration: none;
+  color: #20a7fe;
+  transition: all 0.3s;
+}
+
+.social-link:hover,
+.social-link:active {
+  color: #c1d833;
+}
+
+.social-icon {
+  font-size: 5rem;
 }
 
 /* .montserrat-<uniquifier > {
