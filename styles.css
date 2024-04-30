@@ -390,10 +390,6 @@ body {
   row-gap: 0.8rem;
 }
 
-/* .contact-label {
-  margin-bottom: 0.4rem;
-} */
-
 .contact-input {
   background-color: #d5f3ff;
   border: solid 1px #242421;
@@ -417,37 +413,26 @@ body {
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* column-gap: 10rem; */
   background-color: #ffe2f1;
-
-  /* background-image: url("img/footer_glasses.png"),
+  background-image: url("img/footer_glasses.png"),
     linear-gradient(to bottom, #ffe2f1, #ffe2f1);
   background-repeat: no-repeat;
-  background-size: 95%; */
-
-  padding: 12.8rem;
+  background-size: 80%;
+  background-position: center;
+  padding: 16rem;
   align-items: center;
   justify-items: center;
   margin-top: 19.2rem;
-
-  position: relative;
 }
 
-.footer-background {
-  position: absolute;
-  max-width: 130rem;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.footer-left {
+.footer-buttons {
   row-gap: 3.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.footer-right {
+.footer-social {
   display: grid;
   row-gap: 3.2rem;
   justify-items: center;
@@ -474,17 +459,3 @@ body {
 .social-icon {
   font-size: 5rem;
 }
-
-/* .montserrat-<uniquifier > {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-.urbanist-<uniquifier> {
-  font-family: "Urbanist", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
