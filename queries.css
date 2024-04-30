@@ -18,8 +18,11 @@
 }
 
 /* 1100/16px/16px= 68.75em */
-/* @media (max-width: 68.75em) {
-  .contact-img {
+@media (max-width: 68.75em) {
+  /* .contact-img {
     height: 90%;
+  } */
+  html {
+    font-size: 50%;
   }
-} */
+}
