@@ -414,7 +414,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #ffe2f1;
-  background-image: url("img/footer_glasses.png"),
+  background-image: url("img/footer-glasses.png"),
     linear-gradient(to bottom, #ffe2f1, #ffe2f1);
   background-repeat: no-repeat;
   background-size: 80%;
