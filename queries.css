@@ -1,0 +1,25 @@
+/* 1344/16px/16px=84em */
+@media (max-width: 84em) {
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .section-hero {
+    padding: 12.8rem 3.2rem;
+  }
+
+  .section-contact {
+    margin: 9.6rem;
+  }
+
+  .footer {
+    column-gap: 10rem;
+  }
+}
+
+/* 1100/16px/16px= 68.75em */
+/* @media (max-width: 68.75em) {
+  .contact-img {
+    height: 90%;
+  }
+} */
