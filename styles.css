@@ -46,6 +46,7 @@ form container max-width: 60rem
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* -webkit-appearance: none; */
 }
 
 html {
@@ -66,11 +67,6 @@ body {
   display: grid;
   grid-template-columns: 4fr 3fr;
   column-gap: 4.8rem;
-}
-
-.hero-img,
-.contact-img {
-  height: 85%;
 }
 
 /* ---------------------------------------------------------- */
@@ -105,7 +101,7 @@ body {
   font-weight: 500;
   text-decoration: none;
   border-radius: 10px;
-  padding: 1.6rem 3.2rem;
+  padding: 2rem 3.2rem;
   box-sizing: border-box;
   color: #242421;
   transition: all 0.3s;
@@ -134,12 +130,12 @@ body {
 .btn-secondary:active {
   background-color: #ffe2f1;
   background-color: #c1d833;
-  /* outline: none; */
+  /* outline: transparent; */
   box-shadow: none;
 }
 
 .margin-right-small {
-  margin-right: 3.2rem !important;
+  margin-right: 3.2rem;
 }
 
 .emphasis {
@@ -162,10 +158,20 @@ body {
   /* gap: 9.6rem; */
 }
 
+.hero-buttons {
+  display: flex;
+  gap: 3.2rem;
+  width: fit-content;
+}
+
 .hero-description {
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
+}
+
+.hero-img {
+  width: 100%;
 }
 
 /* ---------------------------------------------------------- */
@@ -215,7 +221,6 @@ body {
 
 .nav-link:hover,
 .nav-link:active {
-  /* color: #ec6b26; */
   border-bottom: 3px solid #ec6b26;
 }
 
@@ -223,18 +228,13 @@ body {
 /* PROJECTS SECTION */
 /* ---------------------------------------------------------- */
 
-/* .section-projects { */
-/* grid-template-rows: 1fr 1fr 1fr; */
-/* gap: 4.8rem; */
-/* } */
-
 .projects-container {
   background-color: #d5f3ff;
   max-width: 130rem;
   margin: 19.2rem auto;
   padding: 12.8rem 9.6rem;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
   gap: 8rem;
   position: relative;
 }
@@ -251,7 +251,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 2.4rem;
+  column-gap: 4.8rem;
 }
 
 .project-img-link:link,
@@ -268,7 +268,7 @@ body {
 }
 
 .project-img {
-  height: 30rem;
+  height: clamp(18rem, 25rem, 48rem);
 }
 
 /* .project-text-group {
@@ -288,9 +288,12 @@ body {
 .project-details {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-left: 3rem;
   margin-bottom: 2.4rem;
   margin-top: 2.4rem;
+}
+
+.project-details-column {
+  margin-left: 3rem;
 }
 
 .project-details-item {
@@ -311,6 +314,7 @@ body {
   color: inherit;
   font-weight: 400;
   transition: all 0.3s;
+  text-wrap: nowrap;
 }
 
 .project-icons-more:hover,
@@ -324,10 +328,8 @@ body {
 /* ---------------------------------------------------------- */
 
 .section-contact {
-  /* padding: 9.6rem; */
   margin: 9.6rem auto;
   align-items: center;
-  /* column-gap: 6.4rem; */
 }
 
 /* .section-contact::before {
@@ -370,11 +372,6 @@ body {
   transform: translateX(-20%);
 } */
 
-.contact-form-container {
-  /* max-width: 60rem; */
-  /* margin: 9.6rem auto; */
-}
-
 .contact-title {
   color: #20a7fe;
   margin-bottom: 2.4rem;
@@ -397,6 +394,7 @@ body {
   border: solid 1px #242421;
   font-family: inherit;
   padding: 0.8rem;
+  font-size: 2rem;
 }
 
 .contact-message {
@@ -408,23 +406,29 @@ body {
   align-self: flex-end;
 }
 
+.contact-img {
+  height: 100%;
+}
+
 /* ---------------------------------------------------------- */
 /* FOOTER */
 /* ---------------------------------------------------------- */
 
 .footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-around;
+  gap: 10rem;
+  align-items: center;
+
+  padding: 16rem;
+  margin-top: 19.2rem;
+
   background-color: #ffe2f1;
   background-image: url("img/footer-glasses.png"),
     linear-gradient(to bottom, #ffe2f1, #ffe2f1);
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: 85%;
   background-position: center;
-  padding: 16rem;
-  align-items: center;
-  justify-items: center;
-  margin-top: 19.2rem;
 }
 
 .footer-buttons {
@@ -438,6 +442,10 @@ body {
   display: grid;
   row-gap: 3.2rem;
   justify-items: center;
+}
+
+.footer-social-message {
+  text-align: center;
 }
 
 .social-links {
