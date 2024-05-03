@@ -76,7 +76,7 @@ body {
 .heading-primary,
 .heading-secondary {
   font-family: "Urbanist", sans-serif;
-  font-size: 16rem;
+  font-size: clamp(10rem, 25vw, 18rem);
   font-weight: 800;
   letter-spacing: -2px;
 }
@@ -104,6 +104,7 @@ body {
   box-sizing: border-box;
   color: #242421;
   transition: all 0.3s;
+  text-align: center;
 }
 
 .btn-primary:link,
@@ -270,16 +271,14 @@ body {
 }
 
 .project-img {
-  height: clamp(18rem, 25rem, 48rem);
+  height: clamp(18rem, 25vw, 30rem);
 }
-
-/* .project-text-group {
-} */
 
 .project-title:link,
 .project-title:visited {
   color: #ec6b26;
   text-decoration: none;
+  /* text-align: center; */
 }
 
 .project-title:hover,
@@ -380,7 +379,7 @@ body {
 }
 
 .contact-form {
-  display: grid;
+  /* display: grid; */
   display: flex;
   flex-direction: column;
   row-gap: 2.4rem;
