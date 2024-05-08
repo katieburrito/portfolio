@@ -87,6 +87,17 @@
     gap: 1.2rem;
   }
 
+  /* .logo:link::after {
+    content: "";
+    height: 30rem;
+    width: 30rem;
+    background-image: url(img/portfolio_bird.png);
+    content: url(img/portfolio_bird_small.png);
+    height: auto;
+    display: inline-block;
+    background-size: 30rem, 30rem;
+  } */
+
   .section-hero {
     /* position: relative; */
     /* z-index: -2; */
