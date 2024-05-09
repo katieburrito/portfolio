@@ -189,8 +189,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #c1d833;
-  background-color: #ffe2f1;
+  /* background-color: #c1d833; */
+  /* background-color: #ffe2f1; */
   /* height: 8rem; */
   padding: 3.2rem 9.6rem;
 }
@@ -503,6 +503,11 @@ body {
 }
 
 .section-project-text {
+}
+
+.project-info-prompt-img {
+  height: 60rem;
+  margin-top: 2.4rem;
 }
 
 .section-project-list {
