@@ -510,6 +510,19 @@ body {
   margin-top: 2.4rem;
 }
 
+.djs-sketch-group {
+  display: grid;
+  /* grid-template-columns: repeat(4, 1fr); */
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  /* gap: 10rem; */
+}
+
+.djs-sketch {
+  /* display: inline; */
+  /* height: 20rem; */
+  /* height: auto; */
+}
+
 .section-project-list {
   margin-left: 3rem;
 }
