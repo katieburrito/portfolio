@@ -21,24 +21,25 @@
 
   <body>
     <header class="header">
-      <a class="logo" href="#">
+      <a class="logo" href="index.html">
         <h3 class="heading-tertiary">Katie Burdi</h3>
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="nav-link" href="#">Home</a></li>
-          <li><a class="nav-link" href="#section-projects">Projects</a></li>
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="/#section-projects">Projects</a></li>
           <li><a class="nav-link" href="#">Resume</a></li>
-          <li><a class="nav-link" href="#section-contact">Contact</a></li>
+          <li><a class="nav-link" href="/#section-contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
 
+
     <footer class="footer">
 
       <div class="footer-buttons">
-        <a class="btn btn-primary" href="#section-projects">View My Work</a>
+        <a class="btn btn-primary" href="/#section-projects">View My Work</a>
         <a class="btn btn-secondary" href="#">View My Resume</a>
       </div>
 

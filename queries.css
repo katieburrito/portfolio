@@ -56,9 +56,9 @@
     padding: 9.6rem 6.4rem;
   }
 
-  .projects-heading {
+  /* .projects-heading {
     transform: ;
-  }
+  } */
 
   .contact-img {
     display: none;
@@ -98,10 +98,10 @@
     background-size: 30rem, 30rem;
   } */
 
-  .section-hero {
-    /* position: relative; */
-    /* z-index: -2; */
-  }
+  /* .section-hero { */
+  /* position: relative; */
+  /* z-index: -2; */
+  /* } */
 
   .hero-container {
     grid-template-columns: 1fr;

@@ -5,6 +5,11 @@
 /*
 
 TYPOGRAPHY
+Headings: Urbanist
+
+Body Text: Montserrat
+
+
 FONT SIZE SYSTEM (px)
   10/ 12/ 14/ 16/ 18/ 20/ 24/ 30/ 36/ 44/ 52/ 62/ 74/ 86/ 98
 
@@ -55,7 +60,7 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
-  line-height: 1;
+  line-height: 1.6;
   font-weight: 300;
   color: #242421;
   font-size: 2rem;
@@ -169,7 +174,6 @@ body {
 
 .hero-description {
   font-size: 2rem;
-  line-height: 1.6;
   margin-bottom: 4.8rem;
 }
 
@@ -296,13 +300,6 @@ body {
 .project-details-column {
   margin-left: 3rem;
 }
-
-.project-details-item {
-  line-height: 1.6;
-}
-
-/* .project-icons {
-} */
 
 .skill-icon {
   font-size: 5rem;
@@ -469,4 +466,54 @@ body {
 
 .social-icon {
   font-size: 5rem;
+}
+
+/* ---------------------------------------------------------- */
+/* PROJECT INFO PAGES */
+/* ---------------------------------------------------------- */
+
+.heading-tertiary.project-info-heading {
+  font-size: 7.4rem;
+  color: #ec6b26;
+  margin-bottom: 7.4rem;
+}
+
+.project-info-container {
+  max-width: 100rem;
+  margin: 9.6rem auto;
+}
+
+.section-project-info {
+  margin-bottom: 4.8rem;
+}
+
+.project-info-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+
+.section-project-heading {
+  text-transform: uppercase;
+  color: #20a7fe;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+.section-project-text {
+}
+
+.section-project-list {
+  margin-left: 3rem;
+}
+
+.section-project-list-item {
+}
+
+.section-project-wireframe-img {
+  /* padding: 5rem; */
+  /* background-color: pink; */
+  margin-right: 5rem;
 }
