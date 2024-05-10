@@ -531,3 +531,14 @@ body {
 .section-project-list {
   margin-left: 3rem;
 }
+
+.before_after_group {
+}
+
+.project_before_after_img {
+  max-width: 30vw;
+}
+
+.project-arrow {
+  font-size: 4rem;
+}
