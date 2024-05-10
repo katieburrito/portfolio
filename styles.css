@@ -95,8 +95,10 @@ body {
 
 .heading-tertiary {
   font-family: "Urbanist", sans-serif;
-  font-size: 4.4rem;
   text-decoration: none;
+  line-height: 1;
+  font-size: clamp(2.4rem, 5vw + 1rem, 4.6rem);
+  width: fit-content;
 }
 
 .btn:link,
@@ -512,26 +514,16 @@ body {
 
 .djs-sketch-group {
   display: grid;
-  /* grid-template-columns: repeat(4, 1fr); */
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  /* gap: 10rem; */
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-columns: repeat(auto-fill, minmax(6rem, 10rem)); */
+  gap: 2.4rem;
+  margin-bottom: 3.2rem;
 }
 
 .djs-sketch {
-  /* display: inline; */
-  /* height: 20rem; */
-  /* height: auto; */
+  max-height: 20rem;
 }
 
 .section-project-list {
   margin-left: 3rem;
-}
-
-.section-project-list-item {
-}
-
-.section-project-wireframe-img {
-  /* padding: 5rem; */
-  /* background-color: pink; */
-  margin-right: 5rem;
 }
