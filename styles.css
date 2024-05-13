@@ -533,10 +533,28 @@ body {
 }
 
 .before_after_group {
+  display: grid;
+  grid-template-columns: 1fr auto 1.25fr;
+  gap: 1.6rem;
+  align-items: center;
+  margin-bottom: 2.4rem;
 }
 
 .project_before_after_img {
-  max-width: 30vw;
+  width: 100%;
+  border-radius: 10px;
+  padding: 2rem;
+  border: 1px solid #242421;
+}
+
+.project_before_after_img:first-child {
+  /* padding: 2rem; */
+}
+
+.project_before_after_img:last-child {
+  /* background-color: #d5f3ff; */
+  /* padding: 2rem; */
+  /* border-radius: 10px; */
 }
 
 .project-arrow {
