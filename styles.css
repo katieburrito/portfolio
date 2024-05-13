@@ -192,7 +192,7 @@ body {
   justify-content: space-between;
   align-items: center;
   /* background-color: #c1d833; */
-  /* background-color: #ffe2f1; */
+  background-color: #ffe2f1;
   /* height: 8rem; */
   padding: 3.2rem 9.6rem;
 }
@@ -525,7 +525,7 @@ body {
 }
 
 .djs-sketch {
-  max-height: 20rem;
+  width: 100%;
 }
 
 .section-project-list {
