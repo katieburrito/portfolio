@@ -27,6 +27,10 @@
     background-size: 100%;
     gap: 20rem;
   }
+
+  .project-info-container {
+    padding: 10rem;
+  }
 }
 
 /* 950px / 16px = 59.375em */
