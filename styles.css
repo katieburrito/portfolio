@@ -66,6 +66,10 @@ body {
   font-size: 2rem;
 }
 
+[id] {
+  scroll-margin-top: 20rem;
+}
+
 .hero-container,
 .section-contact {
   max-width: 130rem;
