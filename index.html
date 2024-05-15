@@ -55,7 +55,9 @@
             </div>
           </div>
 
-          <img class="hero-img" src="img/portfolio_bird.png" alt="orange bird wearing glasses with mouth closed">
+          <!-- <img class="hero-img" src="img/portfolio_bird.png" alt="orange bird wearing glasses with mouth closed"> -->
+          <img class="hero-img" src="img/portfolio_bird-open_mouth.png"
+               alt="orange bird wearing glasses with speaking mouth open">
 
         </div>
 
@@ -215,6 +217,13 @@
       </div>
 
     </footer>
+
+    <filter id="round">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 19 -9" result="goo" />
+      <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+    </filter>
+
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

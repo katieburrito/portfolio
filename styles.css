@@ -88,10 +88,26 @@ body {
 
 .heading-primary {
   margin-bottom: 3.2rem;
-  background-color: #fff;
   display: inline;
   line-height: 1.5;
 }
+
+/* .heading-primary::before {
+  content: "";
+  height: 100rem;
+  width: 100rem;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    88% 75%,
+    92% 100%,
+    73% 75%,
+    0% 75%
+  );
+  background-color: #fff;
+  filter: url(#round);
+} */
 
 .heading-tertiary {
   font-family: "Urbanist", sans-serif;
