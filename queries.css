@@ -29,7 +29,11 @@
   }
 
   .project-info-container {
-    padding: 10rem;
+    padding: 2.4rem;
+  }
+
+  .section-project-wireframe-img {
+    margin-bottom: 1.6rem;
   }
 }
 
@@ -222,5 +226,23 @@
 
   .contact-button:link {
     align-self: center;
+  }
+
+  .section-project-info:has(> .project-img-link-group) {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .project-img-link-group:not(.project-img-link-group:last-child) {
+    margin-bottom: 4.8rem;
+  }
+
+  .project-info-columns {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .section-project-info {
+    margin-bottom: 3.2rem;
   }
 }
