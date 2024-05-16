@@ -533,15 +533,15 @@ body {
   height: clamp(30rem, 60vw, 100rem);
 }
 
-.djs-sketch-group {
+.djs-wireframe-group {
   display: flex;
   gap: 2.4rem;
   margin-bottom: 3.2rem;
   flex-wrap: wrap;
 }
 
-.djs-sketch {
-  height: clamp(14rem, 18vh, 20rem);
+.djs-wireframe {
+  height: clamp(12rem, 17vh, 20rem);
 }
 
 .section-project-list {
