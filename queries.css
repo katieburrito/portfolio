@@ -30,6 +30,7 @@
 
   .project-info-container {
     padding: 2.4rem;
+    margin: 4.8rem auto;
   }
 
   .section-project-wireframe-img {
@@ -63,10 +64,6 @@
     margin: 19.2rem auto 9.6rem auto;
     padding: 9.6rem 6.4rem;
   }
-
-  /* .projects-heading {
-    transform: ;
-  } */
 
   .contact-img {
     display: none;
@@ -183,8 +180,12 @@
 
   .before_after_group {
     grid-template-columns: 1fr;
-    border-bottom: 1px solid #242421;
     padding-bottom: 1.6rem;
+    border-bottom: 1px solid #242421;
+  }
+
+  .before_after_group:last-child {
+    border-bottom: none;
   }
 
   .project_before_after_img {
@@ -254,6 +255,7 @@
 
   .heading-tertiary.project-info-heading {
     font-size: 4.8rem;
+    margin-bottom: 2.4rem;
   }
 
   .section-project-info:has(> .project-img-link-group) {
