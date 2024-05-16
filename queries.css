@@ -180,6 +180,26 @@
     padding: 0 10rem;
     display: block;
   }
+
+  .before_after_group {
+    grid-template-columns: 1fr;
+    border-bottom: 1px solid #242421;
+    padding-bottom: 1.6rem;
+  }
+
+  .project_before_after_img {
+    border: none;
+  }
+
+  .project-arrow-right {
+    display: none;
+  }
+
+  .project-arrow-down {
+    display: inline;
+    text-align: center;
+    line-height: 1;
+  }
 }
 
 /* 550px / 16px = 34.375em */

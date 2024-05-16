@@ -563,8 +563,13 @@ body {
   border: 1px solid #242421;
 }
 
-.project-arrow {
+.project-arrow-right,
+.project-arrow-down {
   font-size: 4rem;
+}
+
+.project-arrow-down {
+  display: none;
 }
 
 /* .project-info-link:link,
