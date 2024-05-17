@@ -496,6 +496,10 @@ body {
   max-height: 45rem;
 }
 
+.garden-wireframe {
+  max-width: 90vw;
+}
+
 .djs-wireframe {
   height: clamp(12rem, 17vh, 20rem);
 }
