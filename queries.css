@@ -210,6 +210,31 @@
 
 /* 550px / 16px = 34.375em */
 @media (max-width: 34.375em) {
+  /* * {
+    text-align: center;
+  }
+
+  .project-details-column,
+  .section-project-list {
+    list-style: none;
+  } */
+
+  img {
+    /* text-align: center; */
+  }
+
+  * {
+    /* text-align: center; */
+  }
+
+  /* .wireframe-group img {
+    text-align: center;
+  } */
+
+  .wireframe-group {
+    justify-content: center;
+  }
+
   .main-nav-list {
     display: none;
   }
@@ -245,12 +270,7 @@
     margin-top: 2rem;
   }
 
-  .section-contact {
-    /* margin: 1.2rem auto; */
-  }
-
   .contact-form {
-    /* margin: 2.4rem; */
     align-items: center;
   }
 
