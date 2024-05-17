@@ -65,6 +65,11 @@
     padding: 9.6rem 6.4rem;
   }
 
+  .design-asset-group {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0;
+  }
+
   .contact-img {
     display: none;
   }
@@ -274,5 +279,13 @@
 
   .section-project-info {
     margin-bottom: 3.2rem;
+  }
+
+  .design-asset-group {
+    grid-template-columns: 1fr;
+  }
+
+  .design-asset .pepper-asset:not(.design-asset:first-child .pepper-asset) {
+    width: 75vw;
   }
 }

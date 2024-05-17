@@ -529,10 +529,6 @@ body {
   margin-top: 2.4rem;
 }
 
-.pepper-moodboard {
-  height: clamp(30rem, 60vw, 100rem);
-}
-
 .wireframe-group {
   display: flex;
   gap: 2.4rem;
@@ -608,4 +604,23 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.design-asset-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.4rem;
+}
+
+.design-asset:first-child {
+  grid-column: 1/-1;
+}
+
+.design-asset:first-child .pepper-asset {
+  max-width: 90vw;
+}
+
+.design-asset-label {
+  font-weight: 300;
+  font-size: 1.6rem;
 }
