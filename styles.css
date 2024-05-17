@@ -25,7 +25,8 @@ COLORS
   bright-blue: #20a7fe
   primary-orange: #ec6b26
   darker-orange: #d75d1b
-  light-pink: #ffe2f1 
+  light-pink: #ffe2f1
+  darker-pink: #edc1d7
       
 SPACING SYSTEM (px)
   2/ 4/ 8/ 12/ 16/ 24/ 32/ 48/ 64/ 80/ 96/ 128
@@ -52,6 +53,7 @@ form container max-width: 60rem
   margin: 0;
   box-sizing: border-box;
   /* -webkit-appearance: none; */
+  /* color: #242421; */
 }
 
 html {
@@ -141,7 +143,7 @@ body {
 
 .btn-primary:hover,
 .btn-primary:active {
-  background-color: #20a7fe;
+  background-color: #d75d1b;
 }
 
 .btn-secondary:link,
@@ -156,7 +158,7 @@ body {
 .btn-secondary:hover,
 .btn-secondary:active {
   background-color: #ffe2f1;
-  background-color: #c1d833;
+  background-color: #edc1d7;
   /* outline: transparent; */
   box-shadow: none;
 }
@@ -326,6 +328,11 @@ body {
   margin-left: 3rem;
 }
 
+.project-icons {
+  display: flex;
+  align-items: center;
+}
+
 .skill-icon {
   font-size: 5rem;
   color: #646357;
@@ -362,10 +369,9 @@ body {
 }
 
 .contact-form {
-  /* display: grid; */
   display: flex;
   flex-direction: column;
-  row-gap: 2.4rem;
+  gap: 2.4rem;
 }
 
 .contact-input-container {
@@ -444,7 +450,7 @@ body {
 
 .social-link:hover,
 .social-link:active {
-  color: #c1d833;
+  color: #edc1d7;
 }
 
 .social-icon {
@@ -539,7 +545,6 @@ body {
 .nav-arrows-group {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .section-project-info:has(> div:has(> h4)) {

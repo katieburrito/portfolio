@@ -166,6 +166,10 @@
     margin-top: 0;
   }
 
+  .contact-form {
+    /* width: 100%; */
+  }
+
   .footer {
     background-image: none;
     flex-direction: column;
