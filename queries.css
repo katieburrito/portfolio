@@ -54,7 +54,7 @@
   } */
 
   .success-img {
-    height: 60%;
+    height: 75%;
   }
 }
 
@@ -101,6 +101,10 @@
   .contact-form-container {
     width: clamp(30rem, 60vw, 60rem);
     margin: auto;
+  }
+
+  .success-img {
+    height: 70%;
   }
 
   .footer {

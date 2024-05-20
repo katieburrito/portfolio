@@ -611,7 +611,6 @@ body {
   letter-spacing: -5rem;
   line-height: 1;
   grid-row: 1/-1;
-  justify-self: center;
 }
 
 .success-message {
@@ -624,6 +623,6 @@ body {
 
 .success-img {
   grid-column: 2/ -1;
-  height: 75%;
+  height: 85%;
   align-self: center;
 }
