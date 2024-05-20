@@ -282,7 +282,7 @@ body {
   gap: 4.8rem;
 }
 
-.project-group:nth-child(2) .project-img-link {
+.project-group:nth-child(even) .project-img-link {
   order: 2;
 }
 
@@ -345,7 +345,7 @@ body {
   font-weight: 400;
   transition: all 0.3s;
   text-wrap: nowrap;
-  margin-top: 1.6rem;
+  margin-left: 1.6rem;
 }
 
 .project-more:hover,
@@ -533,8 +533,7 @@ body {
 }
 
 .arrow-right,
-.arrow-down,
-.nav-arrow span {
+.arrow-down {
   font-size: 4rem;
 }
 
@@ -545,6 +544,7 @@ body {
 .nav-arrows-group {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .section-project-info:has(> div:has(> h4)) {
@@ -565,6 +565,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.project-img-link-group .project-more {
+  margin-top: 1.6rem;
 }
 
 .design-asset-group {
