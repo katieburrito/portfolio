@@ -87,8 +87,7 @@
   }
 
   .contact-form-container {
-    /* max-width: 60rem; */
-    width: clamp(10rem, 60vw, 60rem);
+    width: clamp(30rem, 60vw, 60rem);
     margin: auto;
   }
 
