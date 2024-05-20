@@ -159,8 +159,7 @@ body {
 
 .btn-secondary:hover,
 .btn-secondary:active {
-  background-color: #ffe2f1;
-  background-color: #edc1d7;
+  background-color: #f6b6d6;
   /* outline: transparent; */
   box-shadow: none;
 }
@@ -452,7 +451,7 @@ body {
 
 .social-link:hover,
 .social-link:active {
-  color: #edc1d7;
+  color: #f6b6d6;
 }
 
 .social-icon {
@@ -624,5 +623,21 @@ body {
 .success-img {
   grid-column: 2/ -1;
   height: 85%;
+  align-self: center;
+}
+
+/* ---------------------------------------------------------- */
+/* RESUME PAGE */
+/* ---------------------------------------------------------- */
+
+.resume-page {
+  max-width: 100rem;
+  margin: 9.6rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+.resume-download {
+  width: fit-content;
   align-self: center;
 }
