@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katie Burdi</title>
+
+    <link rel="icon" href="img/favicon.ico" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="queries.css">
+
+
+  </head>
+
+  <body>
+
+    <header class="header">
+      <a class="logo" href="index.html">
+        <h3 class="heading-tertiary">Katie Burdi</h3>
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <!-- <li><a class="nav-link"
+               href="https://katieburrito.github.io/portfolio/index.html#section-projects">Projects</a></li> -->
+          <li><a class="nav-link"
+               href="#section-projects">Projects</a></li>
+          <li><a class="nav-link" href="#">Resume</a></li>
+          <!-- <li><a class="nav-link" href="https://katieburrito.github.io/portfolio/index.html#section-contact">Contact</a> -->
+          <li><a class="nav-link" href="#section-contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <mai class="success-container">
+      <p class="heading-success">Yay!</p>
+      <p class="success-message">Your message was sent successfully.<br>
+        I’ll be in touch soon.<br>
+        Thank you for reaching out!</p>
+      <img class="success-img" src="img/success-bird.png"
+           alt="Orange bird in party hat and sunglasses with confetti and party horn">
+    </mai>
+
+    <footer class="footer">
+
+      <div class="footer-buttons">
+        <a class="btn btn-primary" href="#section-projects">View My Work</a>
+        <a class="btn btn-secondary" href="#section-contact">Contact Me</a>
+      </div>
+
+      <div class="footer-social">
+        <p class="footer-social-message">Thank&nbsp;you&nbsp;for<br>peeping&nbsp;my&nbsp;projects!</p>
+        <div class="social-links">
+          <a class="social-link" href="https://github.com/katieburrito" target="blank">
+            <ion-icon class="social-icon" name="logo-github"></ion-icon>
+          </a>
+          <a class="social-link" href="https://www.linkedin.com/in/katherine-burdi-42136615/" target="blank">
+            <ion-icon class="social-icon" name="logo-linkedin"></ion-icon>
+          </a>
+          <!-- <a class="social-link" href="mailto:">
+            <ion-icon class="social-icon" name="mail-outline"></ion-icon>
+          </a> -->
+        </div>
+      </div>
+
+    </footer>
+
+    <filter id="round">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 19 -9" result="goo" />
+      <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+    </filter>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  </body>
+
+</html>

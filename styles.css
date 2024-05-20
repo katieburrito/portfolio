@@ -73,7 +73,8 @@ body {
 }
 
 .hero-container,
-.section-contact {
+.section-contact,
+.success-container {
   max-width: 130rem;
   display: grid;
   grid-template-columns: 4fr 3fr;
@@ -85,7 +86,8 @@ body {
 /* ---------------------------------------------------------- */
 
 .heading-primary,
-.heading-secondary {
+.heading-secondary,
+.heading-success {
   font-family: "Urbanist", sans-serif;
   font-size: clamp(10rem, 25vw, 18rem);
   font-weight: 800;
@@ -588,4 +590,37 @@ body {
 .design-asset-label {
   font-weight: 300;
   font-size: 1.6rem;
+}
+
+/* ---------------------------------------------------------- */
+/* CONTACT SUCCESS PAGE */
+/* ---------------------------------------------------------- */
+
+.success-container {
+  margin: 9.6rem auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 4fr;
+  justify-items: center;
+}
+
+.heading-success {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  text-transform: uppercase;
+  color: #ec6b26;
+  letter-spacing: -3rem;
+  grid-row: 1/-1;
+}
+
+.success-message {
+  grid-column: 2/-1;
+  justify-self: end;
+  text-align: end;
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+
+.success-img {
+  grid-column: 2/ -1;
+  height: 90%;
 }
