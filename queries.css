@@ -69,7 +69,9 @@
   }
 
   .hero-container {
-    align-items: center;
+    /* align-items: center; */
+    grid-template-columns: 1fr 2fr;
+    /* gap: 3.2rem; */
   }
 
   .hero-buttons {

@@ -105,6 +105,7 @@ body {
   /* margin-left: 3.2rem; */
   /* padding-left: 3.2rem; */
   /* transform: translateX(50%); */
+  /* margin-right: 6.4rem; */
 }
 
 .heading-primary::before {
@@ -209,7 +210,8 @@ body {
 
 .hero-container {
   margin: 0 auto;
-  align-items: end;
+  /* align-items: end; */
+  align-items: center;
   /* padding: 0 3.2rem; */
   /* gap: 9.6rem; */
 }
