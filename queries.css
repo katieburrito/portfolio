@@ -188,8 +188,11 @@
     margin-top: 0.4rem;
   }
 
+  .project-group .project-img-link:link {
+    order: 2;
+  }
+
   .project-img-link:link {
-    order: -1;
     filter: none;
   }
 
