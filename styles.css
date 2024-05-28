@@ -106,6 +106,9 @@ body {
   /* padding-left: 3.2rem; */
   /* transform: translateX(50%); */
   /* margin-right: 6.4rem; */
+
+  animation-name: enlargeFromRight;
+  animation-duration: 1s;
 }
 
 .heading-primary::before {
@@ -667,4 +670,22 @@ body {
 .resume-download {
   width: fit-content;
   align-self: center;
+}
+
+/* ---------------------------------------------------------- */
+/* ANIMATION */
+/* ---------------------------------------------------------- */
+
+@keyframes enlargeFromRight {
+  0% {
+    opacity: 0;
+    transform: scale(1%) translateX(40rem);
+  }
+  50% {
+    transform: scale(115%);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(100%), translateX(0);
+  }
 }
