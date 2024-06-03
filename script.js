@@ -9,5 +9,5 @@ let heroImg = document.querySelector(".hero-img");
 // });
 
 setTimeout(() => {
-  heroImg.src = "img/portfolio_bird-open_mouth.png";
+  heroImg.src = "img/portfolio_bird_openB.png";
 }, 50);
