@@ -1,4 +1,3 @@
-# portfolio
+# HELLO!
 
-- hello
-- this is my portfolio
+## Welcome to My Portfolio Repository
