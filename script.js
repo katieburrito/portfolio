@@ -1,12 +1,12 @@
 "use strict";
 
-let heroImg = document.querySelector(".hero-img");
+// window.onload = function () {
+//   setTimeout(function () {
+//     document.getElementById("body").style.display = "";
+//   }, 2000);
+// };
 
-// heroImg.addEventListener("click", function () {
-//   console.log("clicked bird!");
-//   console.log(this);
-//   heroImg.src = "img/portfolio_bird-open_mouth.png";
-// });
+let heroImg = document.querySelector(".hero-img");
 
 setTimeout(() => {
   heroImg.src = "img/portfolio_bird_mouth_open.png";
