@@ -196,7 +196,6 @@ body {
 /* HERO SECTION */
 /* ---------------------------------------------------------- */
 .section-hero {
-  background-color: #c1d833;
   background-color: #ffe2f1;
   padding: 12.8rem 0;
 }
@@ -232,9 +231,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #c1d833; */
-  background-color: #ffe2f1;
+  background-color: #fff;
   padding: 3.2rem 9.6rem;
+}
+
+.header.home {
+  background-color: #ffe2f1;
 }
 
 .logo:link,
