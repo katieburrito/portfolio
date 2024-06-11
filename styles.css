@@ -527,6 +527,8 @@ body {
 
 .section-project-wireframe-img {
   max-height: 45rem;
+  border: 1px solid #242421;
+  /* filter: drop-shadow(0 0 0.75rem #24242155); */
 }
 
 .garden-wireframe {
