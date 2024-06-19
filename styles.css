@@ -662,6 +662,11 @@ body {
   flex-direction: column;
   gap: 4.8rem;
 }
+
+.resume {
+  margin: 0 auto;
+}
+
 .resume-download {
   width: fit-content;
   align-self: center;
