@@ -83,6 +83,10 @@ body {
   z-index: -2;
 }
 
+.margin-left-small {
+  margin-left: 1.6rem;
+}
+
 /* ---------------------------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ---------------------------------------------------------- */
@@ -368,7 +372,6 @@ body {
   font-weight: 400;
   transition: all 0.3s;
   text-wrap: nowrap;
-  margin-left: 1.6rem;
 }
 
 .project-more:hover,
